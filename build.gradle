@@ -6,7 +6,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'org.junit.platform:junit-platform-gradle-plugin:1.0.1'
+        classpath 'org.junit.platform:junit-platform-gradle-plugin:1.1.0'
     }
 }
 
@@ -32,14 +32,14 @@ dependencies {
     testCompile(
             'io.cucumber:cucumber-java:2.3.1',
             'io.cucumber:cucumber-junit:2.3.1',
-            'org.junit.jupiter:junit-jupiter-api:5.0.1'
+            'org.junit.jupiter:junit-jupiter-api:5.1.0'
     )
 
     testRuntime(
-            'org.junit.jupiter:junit-jupiter-engine:5.0.1',
-            'org.junit.vintage:junit-vintage-engine:4.12.1',
-            'org.junit.platform:junit-platform-launcher:1.0.1',
-            'org.junit.platform:junit-platform-runner:1.0.1'
+            'org.junit.jupiter:junit-jupiter-engine:5.1.0',
+            'org.junit.vintage:junit-vintage-engine:5.1.0',
+            'org.junit.platform:junit-platform-launcher:1.1.0',
+            'org.junit.platform:junit-platform-runner:1.1.0'
     )
 }
 
